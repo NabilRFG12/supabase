@@ -11,7 +11,7 @@ services:
 
   studio:
     container_name: supabase-studio
-    image: supabase/studio:2025.06.30-sha-6f5982d
+image: ghcr.io/NabilRFG12/supabase-studio:brand-v1
     restart: unless-stopped
     healthcheck:
       test:
