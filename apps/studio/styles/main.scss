@@ -281,3 +281,24 @@ div[data-radix-portal]:not(.portal--toast) {
   height: 6px !important;
   @apply border-strong dark:border-r-2 dark:border-b-2 dark:border-overlay #{!important};
 }
+
+/* brand: electric blue (replaces default green) */
+:root{
+  --brand-default: 217 91% 60%;
+  --brand-600:    221 83% 53%;
+  --brand-500:    217 91% 60%;
+  --brand-400:    214 95% 68%;
+  --brand-300:    212 96% 78%;
+  --brand-200:    210 100% 88%;
+}
+[data-theme='deep-dark'],
+.deep-dark,
+[data-theme='dark'],
+.dark{
+  --brand-default: 217 92% 65%;
+  --brand-600:    221 89% 58%;
+  --brand-500:    217 92% 65%;
+  --brand-400:    214 95% 72%;
+  --brand-300:    212 96% 80%;
+  --brand-200:    210 100% 89%;
+}
